@@ -1,6 +1,6 @@
 # Finding 5: Briefing for APHA (27 Nov 2026)
 
-The briefing is a Claude Doc: "Medibank contracting analysis: briefing for APHA" (https://claude.ai/artifact/WVPLPSQc4F9oKqGhePdvju).
+The briefing is a Claude Doc: "Medibank contracting analysis: briefing for APHA" (https://claude.ai/artifact/WVPLPSQc4F9oKqGhePdvju). The version of record (rev 13) and a figure-by-figure source map are in `07-briefing/`.
 
 Every figure in it is reproduced by:
 - `analysis/briefing_figures.py` -> `outputs/briefing_figures.txt` (all comparisons exclude the seven Medibank-interest hospitals)

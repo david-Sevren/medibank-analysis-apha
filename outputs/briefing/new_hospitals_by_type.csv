@@ -1,0 +1,5 @@
+group,n,MBP_agreements,BUP_agreements,HCF_agreements,NIB_agreements,HBF_agreements,AUF_agreements,MBP_share,BUP_share,HCF_share,NIB_share,HBF_share,AUF_share
+All new hospitals,81,25,46,37,37,28,28,0.3086,0.5679,0.4568,0.4568,0.3457,0.3457
+C-F overnight surgical,16,6,12,10,10,11,9,0.375,0.75,0.625,0.625,0.6875,0.5625
+G day,59,16,31,24,23,17,19,0.2712,0.5254,0.4068,0.3898,0.2881,0.322
+A-B mental health / rehab,6,3,3,3,4,0,0,0.5,0.5,0.5,0.6667,0.0,0.0

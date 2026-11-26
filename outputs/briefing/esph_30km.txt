@@ -1,0 +1,6 @@
+data/processed/panel_funds.csv
+incl. other Medibank sites | 2020-08: 102 of 125 (81.6%) -> 2025-07: 100 of 125 (80.0%)
+excl. other Medibank sites | 2020-08: 100 of 123 (81.3%) -> 2025-07: 98 of 123 (79.7%)
+data/processed/panel.csv
+incl. other Medibank sites | 2020-08: 102 of 125 (81.6%) -> 2025-07: 100 of 125 (80.0%)
+excl. other Medibank sites | 2020-08: 100 of 123 (81.3%) -> 2025-07: 98 of 123 (79.7%)

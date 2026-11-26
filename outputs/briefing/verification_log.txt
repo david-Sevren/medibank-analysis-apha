@@ -1,0 +1,45 @@
+== 1. HBF vs Australian Unity agreement on status, Oct 2026 and all snapshots
+  WA: hospitals 65; HBF=AUF on 83.9% of hospital-quarters, Oct26 79.7%; HBF vs others {'MBP': '84.3%', 'BUP': '84.5%', 'HCF': '74.9%', 'NIB': '85.6%'}
+  outside WA: hospitals 661; HBF=AUF on 95.6% of hospital-quarters, Oct26 93.7%; HBF vs others {'MBP': '87.5%', 'BUP': '89.9%', 'HCF': '87.0%', 'NIB': '94.8%'}
+== 2. New hospitals (first listed after Aug 2020, still listed Oct 2026, listed 12+ months) by state
+  {'NSW': 29, 'QLD': 18, 'VIC': 17, 'WA': 7, 'SA': 5, 'TAS': 4, 'ACT': 4} | total 84
+== 3. Possible re-declarations: new provider number within 0.3 km of a provider that left the list within 2 quarters
+  ('0032220K', 'Boroondara Day Surgery', datetime.date(2023, 10, 1), '0044290J', 'HAWTHORN DAY SURGERY', datetime.date(2023, 10, 1), np.float64(0.0), {'MBP': (np.float64(0.0), np.float64(1.0)), 'BUP': (np.float64(0.0), np.float64(1.0)), 'HCF': (np.float64(0.0), np.float64(1.0)), 'NIB': (np.float64(0.0), np.float64(1.0))})
+  ('0044300A', 'Paso Infusion Centre', datetime.date(2023, 4, 1), '0043880W', 'FRANKSTON PRIVATE HOSPITAL', datetime.date(2022, 10, 1), np.float64(0.0), {'MBP': (np.float64(1.0), np.float64(1.0)), 'BUP': (np.float64(1.0), np.float64(1.0)), 'HCF': (np.float64(1.0), np.float64(1.0)), 'NIB': (np.float64(1.0), np.float64(1.0))})
+  count 2 | of which in the 12+ month set 2
+== 4. Independent recompute from raw CSV (csv module only)
+  MBP: Aug20 476  Oct26 473
+  BUP: Aug20 483  Oct26 542
+  HCF: Aug20 462  Oct26 502
+  NIB: Aug20 539  Oct26 537
+  HBF: Aug20 516  Oct26 518
+  AUF: Aug20 527  Oct26 495
+  new 12m+ 84 {'MBP': 26, 'BUP': 49, 'HCF': 40, 'NIB': 39, 'HBF': 29, 'AUF': 29}
+  Bupa-yes/Medibank-no 24  Medibank-yes/Bupa-no 1
+== 5. The Bupa-yes / Medibank-no hospitals
+                                                                        name state cat       first  HCF  NIB
+prov                                                                                                        
+0095140A                                         IMH Deakin Private Hospital   ACT   A  2023-07-01  1.0  1.0
+0056310K                                         IMH NUNDAH PRIVATE HOSPITAL   QLD   A  2025-04-02  1.0  1.0
+0037100A  Monash Heart Private Operated By Jessie Mcpherson Private Hospital   VIC   C  2023-04-01  1.0  1.0
+0017720F                                    Victoria Street Private Hospital   NSW   C  2024-04-02  1.0  0.0
+0017780T                                        KING STREET PRIVATE HOSPITAL   NSW   C  2025-06-01  1.0  1.0
+0017790L                                    SOUTHERN SYDNEY PRIVATE HOSPITAL   NSW   C  2025-06-01  0.0  1.0
+0017800F                                  RAMSAY SURGICAL CENTRE CHARLESTOWN   NSW   C  2025-10-01  1.0  1.0
+0017760X                                             WYVERN PRIVATE HOSPITAL   NSW   D  2025-04-02  1.0  1.0
+0037120X                                           NORTHERN PRIVATE HOSPITAL   VIC   F  2024-04-02  1.0  1.0
+0027650J                                              Cabramatta Day Surgery   NSW   G  2023-01-01  1.0  0.0
+0077220W                                                 Craigie Day Surgery    WA   G  2023-01-01  0.0  1.0
+0085260J                                                 Hobart Eye Surgeons   TAS   G  2023-01-01  0.0  0.0
+0027670F                                         Smithfield Endoscopy Centre   NSW   G  2023-07-01  0.0  0.0
+0044310Y                                          Doncaster Private Hospital   VIC   G  2023-07-01  0.0  0.0
+0067330F                                                    Hove Day Surgery    SA   G  2023-07-01  0.0  0.0
+0017710H                                                Cancer Care Griffith   NSW   G  2023-10-01  1.0  1.0
+0057620K                                              Springwood Day Surgery   QLD   G  2024-04-02  0.0  0.0
+0057630J                                     BRISBANE SOUTH PRIVATE HOSPITAL   QLD   G  2024-04-02  0.0  0.0
+0017730B                                            GENESISCARE CAMPBELLTOWN   NSW   G  2024-07-01  1.0  1.0
+0075770B                                                         ESUS CENTRE    WA   G  2024-07-01  0.0  1.0
+0085280F                            LAUNCESTON HEALTH HUB DAY PROCEDURE UNIT   TAS   G  2024-10-01  0.0  0.0
+0017770W                                        CANCER CARE NORTHERN BEACHES   NSW   G  2025-04-02  1.0  1.0
+0056320J                                                   CANCER CARE NOOSA   QLD   G  2025-04-02  1.0  1.0
+0056330H                            WESTSIDE HAEMATOLOGY AND ONCOLOGY CLINIC   QLD   G  2025-06-01  1.0  1.0

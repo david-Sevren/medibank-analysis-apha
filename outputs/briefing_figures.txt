@@ -34,6 +34,7 @@ By year first listed (Oct 2026 status): n, Medibank, Bupa/HCF/nib avg
   scan over every split: best change +35.2 pts, scan-adjusted p=0.039
 Oncology / infusion day units among new hospitals: 11 {'MBP': 6, 'BUP': 11, 'HCF': 11, 'NIB': 11, 'HBF': 5, 'AUF': 7}
 Excluding them (n=70): {'MBP': '27%', 'BUP': '50%', 'HCF': '37%', 'NIB': '37%', 'HBF': '33%', 'AUF': '30%'}
+Hospitals first listed in 2026 (under 12 months, excl. Medibank sites): n=25 MBP 9 (36%) Bupa/HCF/nib avg 21%
 Medibank-interest hospitals, Oct 2026 status:
   East Sydney Private Hospital: {'MBP': 1, 'BUP': 1, 'HCF': 1, 'NIB': 1, 'HBF': 1, 'AUF': 1}
   ADENEY PRIVATE HOSPITAL: {'MBP': 1, 'BUP': 1, 'HCF': 1, 'NIB': 0, 'HBF': 1, 'AUF': 1}
