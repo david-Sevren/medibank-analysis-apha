@@ -1,0 +1,37 @@
+group,where,fund,n,at_entry,n_still,at_end,n_12m,within_12m
+all categories,near,MBP,40,0.025,38,0.3157894736842105,31,0.25806451612903225
+all categories,near,BUP,40,0.025,38,0.4473684210526316,31,0.12903225806451613
+all categories,near,HCF,40,0.075,38,0.47368421052631576,31,0.3870967741935484
+all categories,near,NIB,40,0.025,38,0.02631578947368421,31,0.03225806451612903
+all categories,near,HBF,40,0.0,38,0.07894736842105263,31,0.0
+all categories,near,AUF,40,0.0,38,0.3157894736842105,31,0.03225806451612903
+all categories,elsewhere,MBP,43,0.046511627906976744,40,0.225,36,0.19444444444444445
+all categories,elsewhere,BUP,43,0.023255813953488372,40,0.375,36,0.05555555555555555
+all categories,elsewhere,HCF,43,0.046511627906976744,40,0.325,36,0.19444444444444445
+all categories,elsewhere,NIB,43,0.023255813953488372,40,0.025,36,0.027777777777777776
+all categories,elsewhere,HBF,43,0.0,40,0.15,36,0.027777777777777776
+all categories,elsewhere,AUF,43,0.046511627906976744,40,0.175,36,0.027777777777777776
+overnight surgical (C-F),near,MBP,10,0.1,10,0.4,8,0.25
+overnight surgical (C-F),near,BUP,10,0.1,10,0.7,8,0.25
+overnight surgical (C-F),near,HCF,10,0.1,10,0.7,8,0.75
+overnight surgical (C-F),near,NIB,10,0.0,10,0.0,8,0.0
+overnight surgical (C-F),near,HBF,10,0.0,10,0.1,8,0.0
+overnight surgical (C-F),near,AUF,10,0.0,10,0.7,8,0.125
+overnight surgical (C-F),elsewhere,MBP,5,0.0,5,0.4,3,0.3333333333333333
+overnight surgical (C-F),elsewhere,BUP,5,0.0,5,0.4,3,0.0
+overnight surgical (C-F),elsewhere,HCF,5,0.2,5,0.4,3,0.3333333333333333
+overnight surgical (C-F),elsewhere,NIB,5,0.0,5,0.0,3,0.0
+overnight surgical (C-F),elsewhere,HBF,5,0.0,5,0.2,3,0.0
+overnight surgical (C-F),elsewhere,AUF,5,0.0,5,0.2,3,0.0
+day hospitals (G),near,MBP,27,0.0,25,0.24,20,0.2
+day hospitals (G),near,BUP,27,0.0,25,0.32,20,0.05
+day hospitals (G),near,HCF,27,0.07407407407407407,25,0.36,20,0.2
+day hospitals (G),near,NIB,27,0.037037037037037035,25,0.04,20,0.05
+day hospitals (G),near,HBF,27,0.0,25,0.08,20,0.0
+day hospitals (G),near,AUF,27,0.0,25,0.2,20,0.0
+day hospitals (G),elsewhere,MBP,32,0.0625,31,0.1935483870967742,27,0.14814814814814814
+day hospitals (G),elsewhere,BUP,32,0.03125,31,0.3870967741935484,27,0.037037037037037035
+day hospitals (G),elsewhere,HCF,32,0.03125,31,0.3225806451612903,27,0.14814814814814814
+day hospitals (G),elsewhere,NIB,32,0.03125,31,0.03225806451612903,27,0.037037037037037035
+day hospitals (G),elsewhere,HBF,32,0.0,31,0.16129032258064516,27,0.037037037037037035
+day hospitals (G),elsewhere,AUF,32,0.0625,31,0.1935483870967742,27,0.037037037037037035

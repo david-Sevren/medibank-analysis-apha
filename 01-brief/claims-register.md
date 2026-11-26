@@ -26,3 +26,7 @@ No detectable pattern of Medibank dropping or withholding agreements near its pa
 ## Surgical-only test (27 Nov 2026)
 
 Restricted to overnight surgical hospitals (categories C to F): no pattern. Medibank holds 90 to 100% of these around every site, above the national 86.7%. Only nine overnight surgical agreements were lost nationally in six years. Leads: five new surgical hospitals near Medibank sites without an agreement. Details: `06-findings/02-regional-contracting-surgical-only.md`.
+
+## New hospitals vs other funds (27 Nov 2026)
+
+Within 25 km of a Medibank surgical site, Medibank contracted 0 of 5 new overnight surgical hospitals by Jun 2025; Bupa 4, HCF 3. Elsewhere Medibank matches or beats competitors. Four named hospitals (Wyvern, Northern Private, Monash Heart Private, Sunshine Private). Small n, data truncated at Jun 2025. Lead to take to hospitals. Details: `06-findings/03-new-hospitals-vs-other-funds.md`.
