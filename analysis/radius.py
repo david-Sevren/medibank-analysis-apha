@@ -14,6 +14,9 @@ import sys
 import numpy as np, pandas as pd
 
 panel_path, outdir = sys.argv[1], sys.argv[2]
+# optional: restrict surgical comparison set to these second-tier categories, e.g. CDEF; outputs get a suffix
+SURG_CATS = sys.argv[3] if len(sys.argv) > 3 else None
+SUFFIX = f'_{SURG_CATS}' if SURG_CATS else ''
 p = pd.read_csv(panel_path, dtype={'prov': str, 'postcode': str}, parse_dates=['snapshot'])
 SNAPS = sorted(p.snapshot.unique())
 END = SNAPS[-1]
@@ -64,6 +67,8 @@ def eligible(kind, filt):
     if filt == 'all':
         return loc.index
     if kind == 'surgical':
+        if SURG_CATS:
+            return loc.index[loc.cat.isin(list(SURG_CATS))]
         return loc.index[~loc.cat.isin(['A', 'B'])]
     return loc.index[loc.cat.eq('A')]
 
@@ -125,7 +130,7 @@ for prov, evlabel, evdate in EVENTS:
                                          placebo_median_pp=np.median(vals) if len(vals) else np.nan,
                                          pct_of_placebos_as_bad_or_worse=pct))
 
-pd.DataFrame(results).to_csv(f'{outdir}/radius_results.csv', index=False)
-pd.DataFrame(series).to_csv(f'{outdir}/radius_series.csv', index=False)
-pd.DataFrame(placebo_rows).to_csv(f'{outdir}/placebo.csv', index=False)
+pd.DataFrame(results).to_csv(f'{outdir}/radius_results{SUFFIX}.csv', index=False)
+pd.DataFrame(series).to_csv(f'{outdir}/radius_series{SUFFIX}.csv', index=False)
+pd.DataFrame(placebo_rows).to_csv(f'{outdir}/placebo{SUFFIX}.csv', index=False)
 print('done', len(results), len(series), len(placebo_rows))

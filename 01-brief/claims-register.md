@@ -22,3 +22,7 @@ Step 1 is the ownership register (`02-ownership/`).
 ## Regional contracting test (27 Nov 2026)
 
 No detectable pattern of Medibank dropping or withholding agreements near its part-owned hospitals. Rebuilt ESPH figure: 81.6% (Aug 2020) to 80.0% (Jul 2025) within 30 km, against APHA's withdrawn 54.89%. Details: `06-findings/01-regional-contracting.md`.
+
+## Surgical-only test (27 Nov 2026)
+
+Restricted to overnight surgical hospitals (categories C to F): no pattern. Medibank holds 90 to 100% of these around every site, above the national 86.7%. Only nine overnight surgical agreements were lost nationally in six years. Leads: five new surgical hospitals near Medibank sites without an agreement. Details: `06-findings/02-regional-contracting-surgical-only.md`.

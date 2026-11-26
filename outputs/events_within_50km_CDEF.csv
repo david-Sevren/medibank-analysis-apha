@@ -1,0 +1,38 @@
+site,km,name,cat,event,date,agree_now
+Adeney Private,18.0,EPPING PRIVATE HOSPITAL,C,GAINED,2021-10-01,
+Adeney Private,5.4,EPWORTH CLIVEDEN,C,EXITED (had agreement),2022-07-01,
+Adeney Private,9.8,BELLBIRD PRIVATE HOSPITAL,D,EXITED (had agreement),2022-10-01,
+Adeney Private,39.2,FRANKSTON PRIVATE HOSPITAL,E,EXITED (had agreement),2022-10-01,
+Adeney Private,10.2,La Trobe Private Hospital,C,GAINED,2023-01-01,1.0
+Adeney Private,18.0,EPPING PRIVATE HOSPITAL,C,EXITED (had agreement),2023-04-01,
+Adeney Private,21.0,Sunshine Private Hospital,D,ENTERED WITHOUT agreement,2023-04-01,
+Adeney Private,14.1,Monash Heart Private Operated By Jessie Mcpherson Private Hospital,C,ENTERED WITHOUT agreement,2023-04-01,0.0
+Adeney Private,17.6,NORTHERN PRIVATE HOSPITAL,F,ENTERED WITHOUT agreement,2024-04-02,0.0
+Adeney Private,6.1,Cabrini Malvern,F,LOST,2025-04-02,0.0
+Adeney Private,21.0,Sunshine Private Hospital,D,EXITED (no agreement),2025-07-01,
+Adeney Private,1.9,Ramsay Surgical Centre Glenferrie,C,EXITED (had agreement),2026-04-05,
+Adeney Private,14.0,Monash House Private Hospital,C,GAINED,2026-04-05,1.0
+East Sydney Private,47.9,Somerset Private Hospital,C,ENTERED with agreement,2022-01-01,1.0
+East Sydney Private,44.4,The George Centre,D,ENTERED WITHOUT agreement,2023-10-01,1.0
+East Sydney Private,5.3,Sydney Surgical Centre,C,GAINED,2024-01-01,1.0
+East Sydney Private,46.9,Hawkesbury District Health Service,F,EXITED (had agreement),2024-07-01,
+East Sydney Private,16.8,Allowah Presbyterian Children's Hospital,C,EXITED (had agreement),2024-10-01,
+East Sydney Private,44.4,The George Centre,D,GAINED,2024-10-01,1.0
+East Sydney Private,20.6,WYVERN PRIVATE HOSPITAL,D,ENTERED WITHOUT agreement,2025-04-02,0.0
+East Sydney Private,20.8,SOUTHERN SYDNEY PRIVATE HOSPITAL,C,ENTERED WITHOUT agreement,2025-06-01,0.0
+East Sydney Private,13.7,Northern Beaches Hospital,F,LOST,2026-07-01,0.0
+Macquarie Uni Hospital (TOI),37.2,Somerset Private Hospital,C,ENTERED with agreement,2022-01-01,1.0
+Macquarie Uni Hospital (TOI),48.3,Camden Surgical Hospital,C,ENTERED WITHOUT agreement,2023-04-01,1.0
+Macquarie Uni Hospital (TOI),42.4,The George Centre,D,ENTERED WITHOUT agreement,2023-10-01,1.0
+Macquarie Uni Hospital (TOI),48.3,Camden Surgical Hospital,C,GAINED,2024-01-01,1.0
+Macquarie Uni Hospital (TOI),19.6,Sydney Surgical Centre,C,GAINED,2024-01-01,1.0
+Macquarie Uni Hospital (TOI),32.9,Hawkesbury District Health Service,F,EXITED (had agreement),2024-07-01,
+Macquarie Uni Hospital (TOI),5.4,Allowah Presbyterian Children's Hospital,C,EXITED (had agreement),2024-10-01,
+Macquarie Uni Hospital (TOI),42.4,The George Centre,D,GAINED,2024-10-01,1.0
+Macquarie Uni Hospital (TOI),13.5,WYVERN PRIVATE HOSPITAL,D,ENTERED WITHOUT agreement,2025-04-02,0.0
+Macquarie Uni Hospital (TOI),29.0,SOUTHERN SYDNEY PRIVATE HOSPITAL,C,ENTERED WITHOUT agreement,2025-06-01,0.0
+Macquarie Uni Hospital (TOI),10.9,Northern Beaches Hospital,F,LOST,2026-07-01,0.0
+Western Hospital,9.9,Calvary Adelaide Hospital,F,LOST,2021-04-01,1.0
+Western Hospital,9.9,Calvary Adelaide Hospital,F,GAINED,2021-10-01,1.0
+Western Hospital,34.8,MCLAREN VALE & DISTRICTS WAR MEMORIAL HOSPITAL INCORPORATED,C,EXITED (had agreement),2023-10-01,
+Western Hospital,11.3,EASTWOOD PRIVATE HOSPITAL,D,ENTERED with agreement,2025-10-01,1.0
