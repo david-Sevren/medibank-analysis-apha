@@ -1,0 +1,3 @@
+new_prov,new_name,first,old_prov,old_name,old_last,km,status_old_vs_new
+0032220K,Boroondara Day Surgery,2023-10-01,0044290J,HAWTHORN DAY SURGERY,2023-10-01,0.0,"{'MBP': (np.float64(0.0), np.float64(1.0)), 'BUP': (np.float64(0.0), np.float64(1.0)), 'HCF': (np.float64(0.0), np.float64(1.0)), 'NIB': (np.float64(0.0), np.float64(1.0))}"
+0044300A,Paso Infusion Centre,2023-04-01,0043880W,FRANKSTON PRIVATE HOSPITAL,2022-10-01,0.0,"{'MBP': (np.float64(1.0), np.float64(1.0)), 'BUP': (np.float64(1.0), np.float64(1.0)), 'HCF': (np.float64(1.0), np.float64(1.0)), 'NIB': (np.float64(1.0), np.float64(1.0))}"

@@ -1,0 +1,44 @@
+Network size (all hospitals, incl. Medibank sites), Aug 2020 -> Oct 2026:
+  MBP: 476 -> 473 (-3)
+  BUP: 483 -> 542 (+59)
+  HCF: 462 -> 502 (+40)
+  NIB: 539 -> 537 (-2)
+  HBF: 516 -> 518 (+2)
+  AUF: 527 -> 495 (-32)
+Network size EXCLUDING the 7 Medibank-interest hospitals:
+  MBP: 472 -> 468 (-4)
+  BUP: 480 -> 535 (+55)
+  HCF: 459 -> 495 (+36)
+  NIB: 535 -> 531 (-4)
+  HBF: 512 -> 514 (+2)
+  AUF: 523 -> 491 (-32)
+New hospitals listed 12+ months, excl. Medibank sites: 81
+  agreements Oct 2026: {'MBP': '25 (31%)', 'BUP': '46 (57%)', 'HCF': '37 (46%)', 'NIB': '37 (46%)', 'HBF': '28 (35%)', 'AUF': '28 (35%)'}
+  C-F (n=16): {'MBP': '6 (38%)', 'BUP': '12 (75%)', 'HCF': '10 (62%)', 'NIB': '10 (62%)', 'HBF': '11 (69%)', 'AUF': '9 (56%)'}
+  G (n=59): {'MBP': '16 (27%)', 'BUP': '31 (53%)', 'HCF': '24 (41%)', 'NIB': '23 (39%)', 'HBF': '17 (29%)', 'AUF': '19 (32%)'}
+  A-B (n=6): {'MBP': '3 (50%)', 'BUP': '3 (50%)', 'HCF': '3 (50%)', 'NIB': '4 (67%)', 'HBF': '0 (0%)', 'AUF': '0 (0%)'}
+Paired, same hospitals (exact McNemar):
+  BUP: BUP-only 22, Medibank-only 1, p=0.0000
+  HCF: HCF-only 14, Medibank-only 2, p=0.0042
+  NIB: NIB-only 15, Medibank-only 3, p=0.0075
+  HBF: HBF-only 12, Medibank-only 9, p=0.6636
+  AUF: AUF-only 10, Medibank-only 7, p=0.6291
+By year first listed (Oct 2026 status): n, Medibank, Bupa/HCF/nib avg
+  2021: n=11 MBP 55% comp 55% gap +0
+  2022: n=11 MBP 27% comp 30% gap +3
+  2023: n=25 MBP 36% comp 55% gap +19
+  2024: n=17 MBP 29% comp 47% gap +18
+  2025: n=17 MBP 12% comp 53% gap +41
+  listed before 2023: n=22 MBP 41% comp 42% | 2023 on: n=59 MBP 27% comp 52%
+  change in gap +23.3 pts, permutation p=0.0089 (fixed 2023 split)
+  scan over every split: best change +35.2 pts, scan-adjusted p=0.039
+Oncology / infusion day units among new hospitals: 11 {'MBP': 6, 'BUP': 11, 'HCF': 11, 'NIB': 11, 'HBF': 5, 'AUF': 7}
+Excluding them (n=70): {'MBP': '27%', 'BUP': '50%', 'HCF': '37%', 'NIB': '37%', 'HBF': '33%', 'AUF': '30%'}
+Medibank-interest hospitals, Oct 2026 status:
+  East Sydney Private Hospital: {'MBP': 1, 'BUP': 1, 'HCF': 1, 'NIB': 1, 'HBF': 1, 'AUF': 1}
+  ADENEY PRIVATE HOSPITAL: {'MBP': 1, 'BUP': 1, 'HCF': 1, 'NIB': 0, 'HBF': 1, 'AUF': 1}
+  Macquarie University Hospital: {'MBP': 1, 'BUP': 1, 'HCF': 1, 'NIB': 1, 'HBF': 1, 'AUF': 1}
+  Western Hospital: {'MBP': 1, 'BUP': 1, 'HCF': 1, 'NIB': 1, 'HBF': 1, 'AUF': 1}
+  IMH Deakin Private Hospital: {'MBP': 0, 'BUP': 1, 'HCF': 1, 'NIB': 1, 'HBF': 0, 'AUF': 0}
+  Hirondelle Private Hospital: {'MBP': 1, 'BUP': 1, 'HCF': 1, 'NIB': 1, 'HBF': 0, 'AUF': 0}
+  IMH NUNDAH PRIVATE HOSPITAL: {'MBP': 0, 'BUP': 1, 'HCF': 1, 'NIB': 1, 'HBF': 0, 'AUF': 0}
