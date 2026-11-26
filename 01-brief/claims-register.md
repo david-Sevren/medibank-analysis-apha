@@ -30,3 +30,7 @@ Restricted to overnight surgical hospitals (categories C to F): no pattern. Medi
 ## New hospitals vs other funds (27 Nov 2026, full CSV)
 
 Medibank contracts fewer new overnight surgical hospitals than Bupa, HCF and nib (5 of 13 comparable, vs 86% average). Four of its gaps are within 25 km of its sites (Wyvern, Northern Private, Monash Heart Private, Southern Sydney Private), but three are elsewhere (Newcastle x2, Wollongong). Near-site difference not significant on a fair comparison (p = 0.11). Other funds do contract Adeney. Details: `06-findings/03-new-hospitals-vs-other-funds.md`.
+
+## Network growth and timing (27 Nov 2026)
+
+Medibank network flat (476 to 473 agreements) while Bupa +59, HCF +40. Slowest of six funds on new hospitals (31% of 84 listed 12+ months vs Bupa 58%, HCF 48%, nib 46%). Gap appears from hospitals listed around 2023 (p = 0.007 fixed split; 0.08 scan-adjusted). Audit workbook loaded as a Claude Sheet. Details: `06-findings/04-network-growth-and-timing.md`.
