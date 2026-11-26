@@ -34,3 +34,7 @@ Medibank contracts fewer new overnight surgical hospitals than Bupa, HCF and nib
 ## Network growth and timing (27 Nov 2026)
 
 Medibank network flat (476 to 473 agreements) while Bupa +59, HCF +40. Slowest of six funds on new hospitals (31% of 84 listed 12+ months vs Bupa 58%, HCF 48%, nib 46%). Gap appears from hospitals listed around 2023 (p = 0.007 fixed split; 0.08 scan-adjusted). Audit workbook loaded as a Claude Sheet. Details: `06-findings/04-network-growth-and-timing.md`.
+
+## Doctor no-gap arrangements (27 Nov 2026)
+
+Claim tested: Medibank gives doctors no-gap deals only for work at hospitals it part-owns. **Not supported as stated.** Medibank's No Gap program is hospital-specific by design but runs mostly at hospitals with no Medibank stake (33 of 36 named in 2025; 41 sites by FY25; SJOG Murdoch added Sep 2025). Adeney is the only whole-of-hospital no-gap model, all its surgeons must sign up, and the reported rate is 92% of AMA (ASA, unconfirmed); Bupa offers the same model there. Open question: whether rates or network admission differ at Medibank-linked hospitals. Details: `06-findings/06-doctor-no-gap-arrangements.md`.
