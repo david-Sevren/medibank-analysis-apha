@@ -8,7 +8,7 @@ Prepared by Aller Consulting (David du Plessis). Private. Not for distribution.
 
 Phase 1: establish exactly which hospitals Medibank holds an ownership interest in, with dates, stakes, provider numbers and locations. This is the anchor for everything else.
 
-Phase 2 (next): test whether Medibank's contracting behaviour with *other* hospitals in the same catchment changed after Medibank took its interest. See `03-method/contracting-change-method.md`.
+Phase 2 (first pass done 27 Nov 2026, see `06-findings/01-regional-contracting.md`): test whether Medibank's contracting behaviour with *other* hospitals in the same catchment changed after Medibank took its interest. See `03-method/contracting-change-method.md`.
 
 ## Structure
 
@@ -19,6 +19,10 @@ Phase 2 (next): test whether Medibank's contracting behaviour with *other* hospi
 | `03-method/` | How we intend to prove (or disprove) each claim |
 | `04-sources/` | Every source we rely on, with access dates |
 | `05-lessons/` | The August 2025 APHA retraction and the safeguards it demands |
+| `06-findings/` | Results, one file per question tested |
+| `data/` | Raw inputs (`raw/`) and cleaned panel (`processed/`) |
+| `analysis/` | Scripts. Run `clean.py`, then `radius.py`, `detail.py`, `charts.py`; `recheck.py` re-derives headline numbers independently |
+| `outputs/` | CSVs and charts produced by the scripts |
 
 ## Ground rules
 

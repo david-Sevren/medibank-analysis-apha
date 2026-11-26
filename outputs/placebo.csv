@@ -1,0 +1,31 @@
+centre,event,radius_km,real_chg_pp,real_n,placebo_centres,placebo_median_pp,pct_of_placebos_as_bad_or_worse
+East Sydney Private,Medibank buys 49% (Aug 2020),25,-1.2820512820512886,78,307,-1.1494252873563204,42.99674267100978
+East Sydney Private,Medibank buys 49% (Aug 2020),50,-1.098901098901106,91,317,0.0,29.652996845425868
+East Sydney Private,Medibank buys 49% (Aug 2020),100,0.0,102,436,0.0,61.00917431192661
+Adeney Private,JV announced (Mar 2021),25,2.4691358024691357,81,263,0.0,77.9467680608365
+Adeney Private,JV announced (Mar 2021),50,1.0204081632652962,98,315,0.0,65.07936507936508
+Adeney Private,JV announced (Mar 2021),100,0.9523809523809601,105,434,-0.9708737864077666,82.02764976958525
+Adeney Private,Hospital opens (Feb 2025),25,-1.1111111111111183,90,267,-1.6129032258064502,91.01123595505618
+Adeney Private,Hospital opens (Feb 2025),50,-0.917431192660545,109,315,-1.0204081632653073,93.01587301587301
+Adeney Private,Hospital opens (Feb 2025),100,-1.680672268907557,119,434,-1.3513513513513487,35.25345622119816
+Macquarie Uni Hospital (TOI),TOI JV announced (Sep 2022),25,-2.3809523809523725,84,271,0.0,32.84132841328413
+Macquarie Uni Hospital (TOI),TOI JV announced (Sep 2022),50,-1.0101010101010055,99,315,0.0,45.07936507936508
+Macquarie Uni Hospital (TOI),TOI JV announced (Sep 2022),100,0.0,107,436,0.0,97.47706422018348
+Macquarie Uni Hospital (TOI),TOI opens (Jan 2024),25,-3.409090909090906,88,266,-1.503844414292177,25.18796992481203
+Macquarie Uni Hospital (TOI),TOI opens (Jan 2024),50,-1.8867924528301883,106,315,-0.9433962264150941,40.63492063492063
+Macquarie Uni Hospital (TOI),TOI opens (Jan 2024),100,-0.8771929824561431,114,434,0.0,29.493087557603687
+Western Hospital,JV takes over (Nov 2024),25,-2.272727272727282,44,436,-2.272727272727282,50.45871559633027
+Western Hospital,JV takes over (Nov 2024),50,-2.2222222222222254,45,493,-1.7241379310344862,14.60446247464503
+Western Hospital,JV takes over (Nov 2024),100,-2.2222222222222254,45,570,-0.8403361344537896,9.824561403508772
+Deakin Private (iMH),Opens under iMH (Mar 2023),25,,0,242,0.0,0.0
+Deakin Private (iMH),Opens under iMH (Mar 2023),50,,0,313,0.0,0.0
+Deakin Private (iMH),Opens under iMH (Mar 2023),100,,0,443,0.0,0.0
+Hirondelle (iMH),iMH JV formed (Mar 2023),25,0.0,8,242,0.0,100.0
+Hirondelle (iMH),iMH JV formed (Mar 2023),50,0.0,10,313,0.0,100.0
+Hirondelle (iMH),iMH JV formed (Mar 2023),100,-8.333333333333337,12,396,0.0,41.16161616161616
+Hirondelle (iMH),Reopens as mental health (Jan 2024),25,0.0,8,242,0.0,100.0
+Hirondelle (iMH),Reopens as mental health (Jan 2024),50,0.0,10,313,0.0,100.0
+Hirondelle (iMH),Reopens as mental health (Jan 2024),100,-8.333333333333337,12,396,0.0,41.16161616161616
+Nundah (iMH),Opens (Jan 2025),25,0.0,4,246,0.0,100.0
+Nundah (iMH),Opens (Jan 2025),50,0.0,4,318,0.0,100.0
+Nundah (iMH),Opens (Jan 2025),100,0.0,7,451,0.0,100.0
