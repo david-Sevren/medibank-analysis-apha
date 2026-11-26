@@ -1,0 +1,105 @@
+Entrants: 115 | near 43 | window 2020-08-01 to 2026-10-01 | R=50.0 km
+                   group     where fund  n  at_entry  n_still  at_end  n_12m  within_12m
+          all categories      near  MBP 43      0.05       40    0.40     36        0.25
+          all categories      near  BUP 43      0.07       40    0.62     36        0.25
+          all categories      near  HCF 43      0.12       40    0.55     36        0.47
+          all categories      near  NIB 43      0.02       40    0.50     36        0.14
+          all categories      near  HBF 43      0.00       40    0.35     36        0.03
+          all categories      near  AUF 43      0.02       40    0.40     36        0.08
+          all categories elsewhere  MBP 72      0.07       66    0.27     54        0.13
+          all categories elsewhere  BUP 72      0.04       66    0.42     54        0.17
+          all categories elsewhere  HCF 72      0.08       66    0.30     54        0.22
+          all categories elsewhere  NIB 72      0.01       66    0.32     54        0.09
+          all categories elsewhere  HBF 72      0.00       66    0.21     54        0.07
+          all categories elsewhere  AUF 72      0.11       66    0.29     54        0.09
+overnight surgical (C-F)      near  MBP  9      0.22        8    0.50      9        0.33
+overnight surgical (C-F)      near  BUP  9      0.22        8    1.00      9        0.44
+overnight surgical (C-F)      near  HCF  9      0.11        8    0.88      9        0.89
+overnight surgical (C-F)      near  NIB  9      0.00        8    1.00      9        0.22
+overnight surgical (C-F)      near  HBF  9      0.00        8    0.88      9        0.11
+overnight surgical (C-F)      near  AUF  9      0.11        8    0.88      9        0.33
+overnight surgical (C-F) elsewhere  MBP 14      0.14       14    0.36      8        0.00
+overnight surgical (C-F) elsewhere  BUP 14      0.14       14    0.36      8        0.25
+overnight surgical (C-F) elsewhere  HCF 14      0.21       14    0.29      8        0.25
+overnight surgical (C-F) elsewhere  NIB 14      0.00       14    0.21      8        0.25
+overnight surgical (C-F) elsewhere  HBF 14      0.00       14    0.29      8        0.25
+overnight surgical (C-F) elsewhere  AUF 14      0.29       14    0.43      8        0.25
+       day hospitals (G)      near  MBP 29      0.00       27    0.37     25        0.16
+       day hospitals (G)      near  BUP 29      0.03       27    0.56     25        0.16
+       day hospitals (G)      near  HCF 29      0.14       27    0.48     25        0.28
+       day hospitals (G)      near  NIB 29      0.03       27    0.37     25        0.12
+       day hospitals (G)      near  HBF 29      0.00       27    0.26     25        0.00
+       day hospitals (G)      near  AUF 29      0.00       27    0.33     25        0.00
+       day hospitals (G) elsewhere  MBP 51      0.06       48    0.25     39        0.13
+       day hospitals (G) elsewhere  BUP 51      0.02       48    0.46     39        0.15
+       day hospitals (G) elsewhere  HCF 51      0.06       48    0.31     39        0.21
+       day hospitals (G) elsewhere  NIB 51      0.02       48    0.33     39        0.08
+       day hospitals (G) elsewhere  HBF 51      0.00       48    0.21     39        0.05
+       day hospitals (G) elsewhere  AUF 51      0.08       48    0.27     39        0.08
+                   group     metric  mbp_near  others_near  mbp_else  others_else  gap_near_pp  gap_else_pp  did_pp
+          all categories   at_entry       0.0          0.0       0.1          0.0          0.0          1.9    -1.9
+          all categories     at_end       0.4          0.5       0.3          0.3         -8.5         -3.6    -4.9
+          all categories within_12m       0.2          0.2       0.1          0.1          5.6          0.0     5.6
+       day hospitals (G)   at_entry       0.0          0.0       0.1          0.0         -4.1          2.4    -6.5
+       day hospitals (G)     at_end       0.4          0.4       0.2          0.3         -3.0         -6.7     3.7
+       day hospitals (G) within_12m       0.2          0.1       0.1          0.1          4.8          1.5     3.3
+overnight surgical (C-F)   at_entry       0.2          0.1       0.1          0.1         13.3          1.4    11.9
+overnight surgical (C-F)     at_end       0.5          0.9       0.4          0.3        -42.5          4.3   -46.8
+overnight surgical (C-F) within_12m       0.3          0.4       0.0          0.2         -6.7        -25.0    18.3
+               site   km                                                               name cat      first  still_listed             MBP             BUP             HCF             NIB             HBF             AUF
+             Adeney 42.4                                               Gih Access Endoscopy   G 2021-04-01          True               n               n               n n (from Apr 21)               n               n
+             Adeney 14.2                              Notting Hill City Health Day Hospital   G 2022-01-01          True               n               n               n               n               n               n
+             Adeney  9.1                                            Templestowe Day Surgery   G 2022-01-01          True               n               n               n               n               n               n
+             Adeney 21.6                                                 East Side Recovery   G 2022-04-03          True               n               n               n               n               n               n
+             Adeney  2.7                                               HAWTHORN DAY SURGERY   G 2022-04-03         False               n               n               n               n               n               n
+             Adeney  5.1                                 TOORAK COSMETIC SURGERY DAY CENTRE   G 2023-01-01         False               n               n               n               n               n               n
+             Adeney 21.0                                          Sunshine Private Hospital   D 2023-04-01         False               n Y (from Jul 24) n (from Jan 24) Y (from Jul 25)               n Y (from Apr 25)
+             Adeney 14.1 Monash Heart Private Operated By Jessie Mcpherson Private Hospital   C 2023-04-01          True               n Y (from Jul 24) Y (from Oct 23) Y (from Jul 25) Y (from Apr 26) Y (from Apr 25)
+             Adeney 39.2                                               Paso Infusion Centre   G 2023-04-01          True Y (from Jan 25) Y (from Jul 24) Y (from Jun 25) Y (from Jul 25) Y (from Apr 26) Y (from Apr 25)
+             Adeney  7.8                                         Doncaster Private Hospital   G 2023-07-01          True               n Y (from Jul 24)               n               n               n               n
+             Adeney  2.7                                             Boroondara Day Surgery   G 2023-10-01          True Y (from Jan 24) Y (from Jul 24) Y (from Oct 23) Y (from Jul 25) Y (from Apr 26) Y (from Oct 25)
+             Adeney 41.4                                  Avive Clinic Mornington Peninsula   A 2024-04-02          True Y (from Jan 25) Y (from Jul 24) Y (from Jul 24) Y (from Jul 25)               n               n
+             Adeney 17.6                                          NORTHERN PRIVATE HOSPITAL   F 2024-04-02          True               n Y (from Jul 24) Y (from Jul 24) Y (from Jul 25) Y (from Apr 26) Y (from Apr 25)
+             Adeney  5.0                                       CREMORNE PRIVATE DAY SURGERY   G 2024-04-02          True               n               n               n               n               n               n
+             Adeney  6.1                                              JOLIMONT DAY HOSPITAL   G 2025-01-01          True               n               n               n               n               n               n
+             Adeney 21.0                                   SUNSHINE CLINIC PRIVATE HOSPITAL   A 2026-04-05          True               n               n               n               n               n               n
+             Adeney 17.9                                                   FULLARTON CLINIC   A 2026-04-05          True               n               n               n               n               n               n
+             Adeney  3.4                                             AVIVE CLINIC MELBOURNE   A 2026-10-01          True               n               n               n               n               n               n
+East Sydney Private 48.0                                              GenesisCare Kingswood   G 2021-04-01          True Y (from Oct 21) Y (from Jul 24) Y (from Oct 24) Y (from Jul 25) Y (from Apr 23) Y (from Apr 25)
+East Sydney Private 14.7                                                Genesis Cancer Care   G 2021-04-01          True Y (from Oct 21) Y (from Jul 24) Y (from Oct 24) Y (from Jul 25) Y (from Apr 23) Y (from Apr 25)
+East Sydney Private  1.6                                              Monash IVF Sydney CBD   G 2021-04-01          True               n               n               n               n               n               n
+East Sydney Private 45.0                                    Gregory Hills Renal Care Centre   G 2021-07-01          True Y (from Oct 22) Y (from Jul 24) Y (from Apr 22) Y (from Jul 25) Y (from Apr 26) Y (from Apr 25)
+East Sydney Private 47.9                                          Somerset Private Hospital   C 2022-01-01          True Y (from Jan 22) Y (from Jul 24) Y (from Jan 23) Y (from Jul 25) Y (from Apr 23) Y (from Apr 25)
+East Sydney Private 20.6                                    Swan Clinic For Plastic Surgery   G 2023-01-01          True               n               n               n               n               n               n
+East Sydney Private 43.7                                           GENESISCARE CAMPBELLTOWN   G 2024-07-01          True               n Y (from Apr 25) Y (from Oct 24) Y (from Jul 25)               n Y (from Apr 26)
+East Sydney Private 42.9                                              CANCER CARE MACARTHUR   G 2024-07-01          True Y (from Apr 26) Y (from Jul 25) Y (from Oct 24) Y (from Jul 25)               n               n
+East Sydney Private 20.8                                   SOUTHERN SYDNEY PRIVATE HOSPITAL   C 2025-06-01          True               n Y (from Jul 26)               n Y (from Jul 26)               n               n
+East Sydney Private  5.6                                       NORTHERN SYDNEY EYE HOSPITAL   G 2026-07-01          True Y (from Oct 26) Y (from Jul 26)               n               n               n               n
+    TOI (Macquarie) 37.1                                    Matilda Nepean Private Hospital   B 2023-01-01          True Y (from Jul 23) Y (from Jul 24) Y (from Apr 23) Y (from Jul 25)               n               n
+    TOI (Macquarie)  3.2                                            Sydney Pain Day Surgery   G 2023-01-01          True Y (from Jan 24) Y (from Jul 24) Y (from Oct 23) Y (from Jul 25) Y (from Apr 26) Y (from Apr 25)
+    TOI (Macquarie) 21.6                                             Cabramatta Day Surgery   G 2023-01-01          True               n Y (from Apr 26) Y (from Jan 23)               n Y (from Apr 26) Y (from Apr 26)
+    TOI (Macquarie)  8.7                                                Family Planning NSW   G 2023-01-01          True               n               n               n               n               n               n
+    TOI (Macquarie) 48.3                                           Camden Surgical Hospital   C 2023-04-01          True Y (from Jan 24) Y (from Jul 24) Y (from Oct 23) Y (from Jul 25) Y (from Apr 26) Y (from Apr 25)
+    TOI (Macquarie) 20.1                                        Smithfield Endoscopy Centre   G 2023-07-01          True               n Y (from Apr 26)               n               n               n               n
+    TOI (Macquarie) 42.4                                                  The George Centre   D 2023-10-01          True Y (from Oct 24) Y (from Jul 24) Y (from Oct 23) Y (from Jul 25) Y (from Apr 26) Y (from Apr 25)
+    TOI (Macquarie) 15.7                                                  BOND DAY HOSPITAL   G 2024-04-02          True               n               n               n               n               n               n
+    TOI (Macquarie) 44.0                                    GOSFORD SPECIALIST DAY HOSPITAL   G 2025-01-01          True               n               n Y (from Apr 26)               n               n               n
+    TOI (Macquarie) 13.5                                            WYVERN PRIVATE HOSPITAL   D 2025-04-02          True               n Y (from Apr 25) Y (from Jun 25) Y (from Jan 26) Y (from Apr 26) Y (from Jul 25)
+    TOI (Macquarie) 11.5                                       CANCER CARE NORTHERN BEACHES   G 2025-04-02          True               n Y (from Jul 25) Y (from Jan 26) Y (from Jul 26)               n               n
+    TOI (Macquarie) 23.7                                         LIVERPOOL PROCEDURE CENTRE   G 2026-04-05          True Y (from Jul 26) Y (from Jul 26) Y (from Apr 26)               n               n               n
+   Western Hospital 11.3                                          EASTWOOD PRIVATE HOSPITAL   D 2025-10-01          True Y (from Oct 25) Y (from Oct 25) Y (from Jan 26) Y (from Jan 26) Y (from Apr 26) Y (from Oct 25)
+   Western Hospital  0.0                                       GENESISCARE WESTERN HOSPITAL   G 2026-01-01          True Y (from Oct 26) Y (from Apr 26) Y (from Jan 26) Y (from Jul 26)               n Y (from Apr 26)
+   Western Hospital 12.1                                               PH PROSTHODONTICS SA   G 2026-04-05          True               n               n               n               n               n               n
+fund     where  hospitals  lost  gained  lost_per_100  share_now
+ MBP      near        370    16      25          4.32       0.74
+ MBP elsewhere        349    16      27          4.58       0.71
+ BUP      near        370     5      52          1.35       0.86
+ BUP elsewhere        349    10      58          2.87       0.80
+ HCF      near        370    15      38          4.05       0.81
+ HCF elsewhere        349    17      41          4.87       0.73
+ NIB      near        370     4      27          1.08       0.88
+ NIB elsewhere        349     6      29          1.72       0.78
+ HBF      near        370     7      30          1.89       0.83
+ HBF elsewhere        349     6      33          1.72       0.77
+ AUF      near        370    25      22          6.76       0.78
+ AUF elsewhere        349    14      25          4.01       0.75

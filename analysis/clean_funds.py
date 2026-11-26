@@ -4,7 +4,7 @@ at full hospital count (the Excel export truncates at 80,000 rows)."""
 import sys, pandas as pd
 src, out = sys.argv[1], sys.argv[2]
 if src.endswith('.csv'):
-    df = pd.read_csv(src, dtype=str)
+    df = pd.read_csv(src, dtype=str, encoding='utf-8-sig')
 else:
     raw = pd.read_excel(src, header=None, dtype=str)
     hdr = raw.index[raw[0] == 'FacilityName'][0]

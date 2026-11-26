@@ -7,7 +7,9 @@ f = pd.read_csv(sys.argv[1], dtype={'prov': str}, parse_dates=['snapshot'])
 mbfull = pd.read_csv(sys.argv[2], dtype={'prov': str}, parse_dates=['snapshot'])
 out = sys.argv[3]
 S = sorted(f.snapshot.unique()); END = S[-1]
-ACTIVE = ['BUP', 'HCF', 'AUF']
+ACTIVE = sys.argv[4].split(',') if len(sys.argv) > 4 else ['BUP', 'HCF', 'AUF']
+MIN_OTHERS = int(sys.argv[5]) if len(sys.argv) > 5 else 2
+TAG = '_'.join(ACTIVE)
 near = pd.read_csv(f'{out}/fund_near_entrants_50km.csv')
 loc = f.sort_values('snapshot').groupby('prov')[['name', 'cat']].last()
 w = {fd: f[f.fund == fd].pivot(index='prov', columns='snapshot', values='agree') for fd in ['MBP'] + ACTIVE}
@@ -21,7 +23,7 @@ for i in ent:
     rows.append(dict(prov=i, name=loc.at[i, 'name'], cat=loc.at[i, 'cat'], near=loc.at[i, 'name'] in nearnames,
                      mbp=w['MBP'].at[i, END], others_yes=others))
 r = pd.DataFrame(rows)
-r['mbp_odd_out'] = (r.mbp == 0) & (r.others_yes >= 2)
+r['mbp_odd_out'] = (r.mbp == 0) & (r.others_yes >= MIN_OTHERS)
 r['mbp_only'] = (r.mbp == 1) & (r.others_yes == 0)
 mb_last = mbfull[mbfull.snapshot == mbfull.snapshot.max()].set_index('prov').agree
 r['mbp_oct26'] = r.prov.map(mb_last)
@@ -35,4 +37,4 @@ for grp, sub in [('overnight surgical C-F', r[r.cat.isin(list('CDEF'))]), ('day 
     print(f'{grp}: Medibank odd-one-out near {a}/{a+b}, elsewhere {c}/{c+d}; one-sided Fisher p = {fisher(a,b,c,d):.3f}; '
           f'Medibank-only near {int(sub[sub.near].mbp_only.sum())}, elsewhere {int(sub[~sub.near].mbp_only.sum())}')
 odd = r[r.mbp_odd_out].sort_values(['near', 'cat'], ascending=[False, True])
-print(odd.to_string(index=False)); r.to_csv(f'{out}/fund_odd_one_out.csv', index=False)
+print(odd.to_string(index=False)); r.to_csv(f'{out}/fund_odd_one_out_{TAG}.csv', index=False)

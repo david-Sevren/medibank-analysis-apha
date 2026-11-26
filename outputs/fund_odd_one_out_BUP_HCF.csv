@@ -1,0 +1,107 @@
+prov,name,cat,near,mbp,others_yes,mbp_odd_out,mbp_only,mbp_oct26
+0017610K,GenesisCare Kingswood,G,True,1.0,2.0,False,False,1
+0017630H,Gregory Hills Renal Care Centre,G,True,1.0,2.0,False,False,1
+0017640F,Orange Private Hospital,G,False,1.0,2.0,False,False,1
+0017660A,Somerset Private Hospital,C,True,1.0,2.0,False,False,1
+0017670Y,Ramsay Surgical Centre Coffs Harbour,G,False,1.0,2.0,False,False,1
+0017680X,Matilda Nepean Private Hospital,B,True,1.0,2.0,False,False,1
+0017690W,Camden Surgical Hospital,C,True,1.0,2.0,False,False,1
+0017700J,The George Centre,D,True,1.0,2.0,False,False,1
+0017710H,Cancer Care Griffith,G,False,0.0,2.0,True,False,0
+0017720F,Victoria Street Private Hospital,C,False,0.0,2.0,True,False,0
+0017730B,GENESISCARE CAMPBELLTOWN,G,True,0.0,2.0,True,False,0
+0017740A,CANCER CARE MACARTHUR,G,True,1.0,2.0,False,False,1
+0017750Y,GOSFORD SPECIALIST DAY HOSPITAL,G,True,0.0,1.0,False,False,0
+0017760X,WYVERN PRIVATE HOSPITAL,D,True,0.0,2.0,True,False,0
+0017770W,CANCER CARE NORTHERN BEACHES,G,True,0.0,2.0,True,False,0
+0017780T,KING STREET PRIVATE HOSPITAL,C,False,0.0,2.0,True,False,0
+0017790L,SOUTHERN SYDNEY PRIVATE HOSPITAL,C,True,0.0,1.0,False,False,0
+0017800F,RAMSAY SURGICAL CENTRE CHARLESTOWN,C,False,0.0,2.0,True,False,0
+0017810B,LIVERPOOL PROCEDURE CENTRE,G,True,1.0,2.0,False,False,1
+0027570J,Genesis Cancer Care,G,True,1.0,2.0,False,False,1
+0027600X,Monash IVF Sydney CBD,G,True,0.0,0.0,False,False,0
+0027610W,Coffs Day Hospital,G,False,1.0,2.0,False,False,1
+0027620T,Swan Clinic For Plastic Surgery,G,True,0.0,0.0,False,False,0
+0027630L,Genesiscare Maitland,G,False,1.0,2.0,False,False,1
+0027640K,Sydney Pain Day Surgery,G,True,1.0,2.0,False,False,1
+0027650J,Cabramatta Day Surgery,G,True,0.0,2.0,True,False,0
+0027660H,Family Planning NSW,G,True,0.0,0.0,False,False,0
+0027670F,Smithfield Endoscopy Centre,G,True,0.0,1.0,False,False,0
+0027680B,BOND DAY HOSPITAL,G,True,0.0,0.0,False,False,0
+0027690A,ARMIDALE DAY SURGERY,G,False,0.0,0.0,False,False,0
+0027700T,NORTHERN SYDNEY EYE HOSPITAL,G,True,1.0,1.0,False,False,1
+0032220K,Boroondara Day Surgery,G,True,1.0,2.0,False,False,1
+0037020A,The Hader Clinic,A,False,0.0,0.0,False,False,0
+0037060T,Gih Access Endoscopy,G,True,0.0,0.0,False,False,0
+0037070L,East Side Recovery,G,True,0.0,0.0,False,False,0
+0037080K,Anam Cara House Geelong,C,False,0.0,0.0,False,False,0
+0037100A,Monash Heart Private Operated By Jessie Mcpherson Private Hospital,C,True,0.0,2.0,True,False,0
+0037110Y,Avive Clinic Mornington Peninsula,A,True,1.0,2.0,False,False,1
+0037120X,NORTHERN PRIVATE HOSPITAL,F,True,0.0,2.0,True,False,0
+0037130W,JOLIMONT DAY HOSPITAL,G,True,0.0,0.0,False,False,0
+0037150L,SUNSHINE CLINIC PRIVATE HOSPITAL,A,True,0.0,0.0,False,False,0
+0037160K,FULLARTON CLINIC,A,True,0.0,0.0,False,False,0
+0037170J,AVIVE CLINIC MELBOURNE,A,True,0.0,0.0,False,False,0
+0044270L,Notting Hill City Health Day Hospital,G,True,0.0,0.0,False,False,0
+0044280K,Templestowe Day Surgery,G,True,0.0,0.0,False,False,0
+0044300A,Paso Infusion Centre,G,True,1.0,2.0,False,False,1
+0044310Y,Doncaster Private Hospital,G,True,0.0,1.0,False,False,0
+0044320X,CREMORNE PRIVATE DAY SURGERY,G,True,0.0,0.0,False,False,0
+0044330W,GEELONG DAY SURGERY,G,False,0.0,0.0,False,False,0
+0044340T,WEST GIPPSLAND ENDOSCOPY CENTRE,G,False,0.0,0.0,False,False,0
+0056220L,B.Braun Morayfield Renal Care Centre,G,False,1.0,2.0,False,False,1
+0056230K,Hader Clinic Queensland Private,A,False,0.0,0.0,False,False,0
+0056240J,Wandi Nerida,A,False,0.0,0.0,False,False,0
+0056250H,Fraser Coast Hospice,C,False,0.0,0.0,False,False,0
+0056260F,Herston Private Hospital,C,False,1.0,1.0,False,False,1
+0056280A,Cosmos Gold Coast Day Hospital,G,False,0.0,0.0,False,False,0
+0056290Y,Avive Clinic Brisbane,A,False,1.0,2.0,False,False,1
+0056300L,FITZROY COMMUNITY HOSPICE,C,False,1.0,0.0,False,True,1
+0056320J,CANCER CARE NOOSA,G,False,0.0,2.0,True,False,0
+0056330H,WESTSIDE HAEMATOLOGY AND ONCOLOGY CLINIC,G,False,0.0,2.0,True,False,0
+0056340F,CANCER CARE MORETON BAY,G,False,0.0,1.0,False,False,0
+0056350B,MT GRAVATT PRIVATE HOSPITAL,G,False,1.0,1.0,False,False,1
+0056360A,MATRESCENCE BIRTHING CENTRE GOLD COAST,C,False,0.0,0.0,False,False,0
+0056370Y,MAROOCHY PRIVATE HOSPITAL,C,False,1.0,2.0,False,False,1
+0056380X,MATER PRIVATE HOSPITAL GOLD COAST,F,False,1.0,0.0,False,True,1
+0056390W,NOOSA DAY HOSPITAL,G,False,0.0,0.0,False,False,0
+0057540K,Southside Procedure Centre,G,False,0.0,0.0,False,False,0
+0057550J,Brisbane Procedure Centre,G,False,0.0,0.0,False,False,0
+0057560H,Toowoomba Private Day Hospital,C,False,0.0,0.0,False,False,0
+0057580B,Broadwater Private Day Hospital,G,False,0.0,0.0,False,False,0
+0057610L,Wide Bay Private Day Hospital,G,False,1.0,2.0,False,False,1
+0057620K,Springwood Day Surgery,G,False,0.0,1.0,False,False,0
+0057630J,BRISBANE SOUTH PRIVATE HOSPITAL,G,False,0.0,1.0,False,False,0
+0057650F,THE SOLACE CLINIC,G,False,1.0,0.0,False,True,1
+0057670A,RAMSAY SURGICAL CENTRE CLEVELAND,G,False,0.0,1.0,False,False,0
+0057700K,LITTLE EDWARD DAY HOSPITAL,G,False,0.0,0.0,False,False,0
+0057710J,TASMAN HEALTH CARE YARRABILBA,G,False,0.0,0.0,False,False,0
+0065950T,EASTWOOD PRIVATE HOSPITAL,D,True,1.0,2.0,False,False,1
+0065960L,GENESISCARE WESTERN HOSPITAL,G,True,1.0,2.0,False,False,1
+0065970K,PH PROSTHODONTICS SA,G,True,0.0,0.0,False,False,0
+0067310J,Advanced Oral and Maxillofacial Surgery,G,False,0.0,0.0,False,False,0
+0067320H,Harley Day Surgery,G,False,0.0,0.0,False,False,0
+0067330F,Hove Day Surgery,G,False,0.0,1.0,False,False,0
+0067340B,Burnside Day Surgery,G,False,0.0,0.0,False,False,0
+0075740J,GenesisCare Mandurah,G,False,1.0,2.0,False,False,1
+0075770B,ESUS CENTRE,G,False,0.0,1.0,False,False,0
+0075780A,BROOME RENAL HEALTH CENTRE,G,False,0.0,0.0,False,False,0
+0075790Y,DERBY RENAL HEALTH CENTRE,G,False,0.0,0.0,False,False,0
+0075800L,KUNUNURRA RENAL HEALTH CENTRE,G,False,0.0,0.0,False,False,0
+0075810K,FITZROY CROSSING RENAL HEALTH CENTRE,G,False,0.0,0.0,False,False,0
+0075820J,AEGIS HEALTH PRIVATE HOSPITAL,D,False,0.0,0.0,False,False,0
+0075830H,ST JOHN OF GOD MIDLAND PRIVATE HOSPITAL,F,False,1.0,0.0,False,True,1
+0077220W,Craigie Day Surgery,G,False,0.0,1.0,False,False,0
+0077310T,PERTH DAY HOSPITAL,G,False,0.0,0.0,False,False,0
+0085250K,Specialist Care Australia Ulverstone,G,False,1.0,2.0,False,False,1
+0085260J,Hobart Eye Surgeons,G,False,0.0,1.0,False,False,0
+0085270H,Specialist Care Australia - Campbell Town,G,False,0.0,1.0,False,False,0
+0085280F,LAUNCESTON HEALTH HUB DAY PROCEDURE UNIT,G,False,0.0,1.0,False,False,0
+0085290B,TASMANIAN DIGESTIVE CENTRE,G,False,1.0,2.0,False,False,1
+0085300W,SALVEO HEALTHCARE,G,False,0.0,0.0,False,False,0
+0095150Y,ACT DAY HOSPITAL,G,False,1.0,2.0,False,False,1
+0095160X,RAMSAY PRIVATE HOSPITAL NATIONAL CAPITAL,F,False,0.0,0.0,False,False,0
+0097070F,Canberra Region Neurology and Pain Centre,G,False,0.0,0.0,False,False,0
+0097080B,Cosmos Clinic Canberra,G,False,0.0,0.0,False,False,0
+0097090A,A1 DENTAL BARTON,G,False,0.0,0.0,False,False,0
+0097100T,CANBERRA EMERGENCY CARE CENTRE,G,False,0.0,0.0,False,False,0
