@@ -1,5 +1,10 @@
 # Briefing for APHA (27 Nov 2026)
 
+Two documents:
+
+- **Summary for Brett** (`summary-for-apha.*`): answers Brett's questions in order (hospital contracting, doctor arrangements, steering and the regulatory route) and sets out what APHA can and can't say. Exported from the Claude Doc "Medibank and its part-owned hospitals: summary for APHA" (https://claude.ai/artifact/9f4S3CtngYpsFWFFJiHz2h), revision 10, 27 Nov 2026. Doctor-arrangement evidence: `06-findings/06-doctor-no-gap-arrangements.md`.
+- **Detailed briefing** (`briefing-for-apha.*`): the contracting analysis behind section 1 of the summary, described below.
+
 The briefing prepared for Brett Heffernan, exported from the live Claude Doc ("Medibank contracting analysis: briefing for APHA", revision 13, https://claude.ai/artifact/WVPLPSQc4F9oKqGhePdvju) on 27 Nov 2026.
 
 | File | What |
