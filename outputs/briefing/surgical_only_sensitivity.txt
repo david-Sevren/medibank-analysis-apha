@@ -1,0 +1,34 @@
+SURGICAL HOSPITALS ONLY (second-tier C to G), all seven Medibank-interest hospitals excluded
+Category mix of all hospitals ever listed: {'G': 404, 'F': 84, 'C': 73, 'D': 54, 'A': 50, 'B': 37, 'E': 19, '?': 5}
+Network size, Aug 2020 -> Oct 2026:
+  MBP: 407 -> 406 (-1)
+  BUP: 420 -> 467 (+47)
+  HCF: 393 -> 429 (+36)
+  NIB: 465 -> 462 (-3)
+  HBF: 443 -> 449 (+6)
+  AUF: 457 -> 440 (-17)
+New surgical hospitals listed 12+ months: 75
+  agreements Oct 2026: {'MBP': '22 (29%)', 'BUP': '43 (57%)', 'HCF': '34 (45%)', 'NIB': '33 (44%)', 'HBF': '28 (37%)', 'AUF': '28 (37%)'}
+Paired (exact McNemar):
+  BUP: BUP-only 22, Medibank-only 1, p=0.0000
+  HCF: HCF-only 14, Medibank-only 2, p=0.0042
+  NIB: NIB-only 14, Medibank-only 3, p=0.0127
+  HBF: HBF-only 12, Medibank-only 6, p=0.2379
+  AUF: AUF-only 10, Medibank-only 4, p=0.1796
+By year first listed:
+  2021: n=11 MBP 55% comp 55% gap +0
+  2022: n=10 MBP 30% comp 33% gap +3
+  2023: n=22 MBP 36% comp 56% gap +20
+  2024: n=15 MBP 20% comp 40% gap +20
+  2025: n=17 MBP 12% comp 53% gap +41
+  before 2023: n=21 MBP 43% comp 44% | 2023 on: n=54 MBP 24% comp 51%
+  change in gap +25.0 pts, permutation p=0.0086
+  scan over every split: best change +34.5 pts, scan-adjusted p=0.048
+Dropped new non-surgical hospitals (6):
+  Matilda Nepean Private Hospital (B, NSW): {'MBP': 1, 'BUP': 1, 'HCF': 1, 'NIB': 1, 'HBF': 0, 'AUF': 0}
+  The Hader Clinic (A, VIC): {'MBP': 0, 'BUP': 0, 'HCF': 0, 'NIB': 0, 'HBF': 0, 'AUF': 0}
+  Avive Clinic Mornington Peninsula (A, VIC): {'MBP': 1, 'BUP': 1, 'HCF': 1, 'NIB': 1, 'HBF': 0, 'AUF': 0}
+  Hader Clinic Queensland Private (A, QLD): {'MBP': 0, 'BUP': 0, 'HCF': 0, 'NIB': 1, 'HBF': 0, 'AUF': 0}
+  Wandi Nerida (A, QLD): {'MBP': 0, 'BUP': 0, 'HCF': 0, 'NIB': 0, 'HBF': 0, 'AUF': 0}
+  Avive Clinic Brisbane (A, QLD): {'MBP': 1, 'BUP': 1, 'HCF': 1, 'NIB': 1, 'HBF': 0, 'AUF': 0}
+2026 surgical listings (<12 months): n=22 MBP 9 (41%) Bupa/HCF/nib avg 24%
